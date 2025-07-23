@@ -1,0 +1,29 @@
+{
+  "name": "pokemon-ify",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/JayGgit/Pokemon-ify#readme",
+  "bugs": {
+    "url": "https://github.com/JayGgit/Pokemon-ify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayGgit/Pokemon-ify.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@googlemaps/addressvalidation": "^3.1.0",
+    "axios": "^1.10.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "i": "^0.3.7",
+    "npm": "^11.4.2"
+  }
+}

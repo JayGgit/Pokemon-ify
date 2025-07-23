@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon-ify</title>
+</head>
+<body>
+    <div class="notificationPanel" id="notificationPanel">
+        <div class="confirmationWrapper">
+            <h1 class="confirmationTitle">Does this address look right?</h1>
+            <h2 class="confirmationAddress" id="confirmationAddress">Address not found.</h2>
+            <div class="buttonWrapper">
+                <button class="confirmationButtons" id="yes" style="background-color: #75897c;">Yes</button>
+                <button class="confirmationButtons" id="no" style="background-color: #dddddd; color: #000000;">No</button>
+            </div>
+        </div>
+    </div>
+    <div class="addressWrapper">
+        <input type="text" id="addressInput" placeholder="Enter address">
+        <button class="submitAddress" id="submitAddress">Submit</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
