@@ -35,8 +35,12 @@ app.get("/", (req, res) => {
     res.sendFile(__dirname + "/public/index.html")
 })
 
+app.get("/generate", async (req, res) => {
+    res.sendFile(__dirname + "/public/generate.html")
+})
+
 app.get("/api/submitAddress", async (req, res) => {
-    addressToCoordinates(req, res, addressvalidationClient)
+    addressToCoordinates(req, res, addressvalidationClient, axios)
 })
 
 app.get("/api/getImageFromCoordinates", async (req, res) => {

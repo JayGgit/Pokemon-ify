@@ -1,0 +1,53 @@
+* {
+    print-color-adjust: exact;
+}
+
+.outerContainer {
+    position: relative;
+    width: 2.5in;
+    height: 3.5in;
+    border: 2px solid #000000;
+    border-radius: 8px;
+}
+.streetName {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.houseImage {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+} 
+.aiDescription {
+    margin-top: 48px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.date {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+}
+.backSideContainer {
+    position: relative;
+    width: 2.5in;
+    height: 3.5in;
+    border: 2px solid #000000;
+    border-radius: 8px;
+}
+.containerWrapper {
+    display: flex;
+    gap: 0px;
+}
+.info {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+}
