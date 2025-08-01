@@ -1,4 +1,4 @@
-const allowedRequestsPerDay = 100
+const allowedRequestsPerDay = 50
 
 const express = require("express")
 const { rateLimit } = require("express-rate-limit")
