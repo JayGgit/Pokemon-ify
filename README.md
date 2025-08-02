@@ -1,3 +1,5 @@
+Made for Github's Summer of Making
+
 **Setup**
 
 1. Setup a Google Cloud API key with the below products:
